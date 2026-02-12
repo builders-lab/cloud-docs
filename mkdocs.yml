@@ -65,3 +65,10 @@ markdown_extensions:
 
 plugins:
   - search
+
+nav:
+  - Home: index.md
+  - Architecture:
+      - 'High-Level Design': architecture/system-design.md
+      - 'Roadmap': architecture/roadmap.md
+  - API Reference: api/index.md
